@@ -3,6 +3,7 @@
 source "https://rubygems.org"
 
 gemspec
+gem 'jekyll-latex'
 
 group :test do
   gem "html-proofer", "~> 3.18"
