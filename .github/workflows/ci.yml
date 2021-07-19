@@ -48,7 +48,6 @@ jobs:
 
       - name: Bundle Install
         run: 
-          gem install jekyll-latex
           bundle config path ${{ env.GEMS_PATH }}
           bundle install --jobs 4 --retry 3
 
